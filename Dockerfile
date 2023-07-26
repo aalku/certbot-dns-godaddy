@@ -1,4 +1,4 @@
-FROM certbot/certbot
+FROM docker.io/certbot/certbot:v2.6.0
 LABEL org.opencontainers.image.source="https://github.com/miigotu/certbot-dns-godaddy"
 LABEL maintainer="miigotu@gmail.com"
 ENV PYTHONIOENCODING="UTF-8"

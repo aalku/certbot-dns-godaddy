@@ -5,3 +5,5 @@ dist
 work
 yarn.lock
 node_modules
+.env
+godaddy_credentials.ini
